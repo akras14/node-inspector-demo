@@ -12,18 +12,18 @@ Original Repo: [https://github.com/node-inspector/node-inspector](https://github
 Will prompt you to open `http://127.0.0.1:8080/debug?port=5858` in Chrome.
 
 ## Debug Node App
-`node --debug filename.js` debug the file, will break on `debugger;` statements or existing break points.
+`node --debug app.js` debug the file, will break on `debugger;` statements or existing break points.
 
 ## Debug Node App, Break on First Line
 
-`node --debug-brk filename.js` debug the file, always break on first line of code.
+`node --debug-brk app.js` debug the file, always break on first line of code.
 
 ## Kill Node-Inspector 
 Close the terminal tab or `ps aux | grep node-inspector` to get process ID for node-inspector and `sudo kill -9 <processID>`
 
 # Simplified Use Case
 
-`node-debug filename.js` will:
+`node-debug app.js` will:
 
 1. Start Node Inspector
 2. Open New Tab in Chrome 
@@ -33,4 +33,4 @@ Close the terminal tab or `ps aux | grep node-inspector` to get process ID for n
 
 # Debugging Grunt Tasks
 
-`node-debug $(which grunt) <gruntTaskName>`
+`node-debug $(which grunt) test`
