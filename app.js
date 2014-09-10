@@ -1,5 +1,7 @@
-var test = {
-    bar: "foo",
-    baz: "foo-foo"
-}
-debugger;
+setInterval(function(){
+    var test = {
+        bar: "foo",
+        baz: "foo-foo"
+    }
+    debugger;
+}, 2000);

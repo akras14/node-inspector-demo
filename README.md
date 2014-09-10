@@ -12,7 +12,7 @@ Original Repo: [https://github.com/node-inspector/node-inspector](https://github
 Will prompt you to open `http://127.0.0.1:8080/debug?port=5858` in Chrome.
 
 ## Debug Node App
-`node --debug app.js` debug the file, will break on `debugger;` statements or existing break points.
+`node --debug app.js` debug the file, will break on `debugger;` statements or existing break points. Only works with files that do not exit right away.
 
 ## Debug Node App, Break on First Line
 
